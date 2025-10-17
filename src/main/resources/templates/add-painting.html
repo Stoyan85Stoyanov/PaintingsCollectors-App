@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/commons::head"></head>
+<body>
+<header th:replace="fragments/commons::nav"></header>
+<main>
+    <form class="welcome add-offer-form"
+          th:method="POST"
+          th:action="@{/add-painting}"
+          th:object="${paintingData}"
+    >
+    <h1 class="text-center mt-2"><span class="badge badge-pill badge-dark">Add painting</span></h1>
+
+        <div class="form-group">
+            <div class="label-holder text-white textCol d-flex justify-content-center">
+                <label for="name" class="h4 mb-2">Name</label>
+            </div>
+            <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    th:field="*{name}"/>
+
+            <small th:if="${#fields.hasErrors('name')}" class="danger">
+                Name length must be between 5 and 40 characters!</small>
+        </div>
+
+        <div class="form-group">
+            <div class="label-holder text-white textCol d-flex justify-content-center">
+                <label for="author" class="h4 mb-2">Author</label>
+            </div>
+            <input
+                    type="text"
+                    class="form-control"
+                    id="author"
+                    name="author"
+                    th:field="*{author}"/>
+
+            <small th:if="${#fields.hasErrors('author')}" class="danger">
+                Author length must be between 5 and 30 characters!</small>
+        </div>
+
+        <div class="form-group">
+            <div class="label-holder text-white textCol d-flex justify-content-center">
+                <label for="image" class="h4 mb-2">Image URL</label>
+            </div>
+            <textarea
+                    type="text"
+                    class="form-control"
+                    id="image"
+                    name="image"
+                    th:field="*{imageUrl}"></textarea>
+
+            <small th:if="${#fields.hasErrors('imageUrl')}" class="danger">
+                Please enter valid image URL!</small>
+        </div>
+
+        <div class="form-group">
+            <div class="text-white label-holder d-flex justify-content-center">
+                <label for="style" class="h4 mb-2">Style</label>
+            </div>
+            <select class="browser-default custom-select"
+                    id="style"
+                    name="style"
+                    th:field="*{style}"
+            >
+                <option value="">Select style</option>
+                <option value="IMPRESSIONISM">IMPRESSIONISM</option>
+                <option value="ABSTRACT">ABSTRACT</option>
+                <option value="EXPRESSIONISM">EXPRESSIONISM</option>
+                <option value="SURREALISM">SURREALISM</option>
+                <option value="REALISM">REALISM</option>
+            </select>
+
+            <small th:if="${#fields.hasErrors('style')}" th:errors="*{style}"
+                    class="danger">You must select a style!</small>
+        </div>
+
+        <div class="button-holder d-flex justify-content-center">
+            <button type="submit" class="btn btn-info  mb-3">Add painting</button>
+        </div>
+
+    </form>
+</main>
+<footer th:replace="fragments/commons::footer"></footer>
+</body>
+</html>
