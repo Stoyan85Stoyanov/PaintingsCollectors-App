@@ -1,0 +1,18 @@
+[
+  {
+    "name": "dodge challenger",
+    "author": "David",
+    "style": "IMPRESSIONISM",
+    "addedBy": "0ec661f0-e5d0-4e73-b53a-e4c35e62ab96",
+    "imageUrl": "https://myve.bg/f/news/b/54/cda2e07cb925f647782f3162b5ff0874.jpeg",
+    "favorite": false
+  },
+  {
+    "name": "corvette c8",
+    "author": "Leonardo",
+    "style": "REALISM",
+    "addedBy": "662b147c-af97-4bb0-8289-fc0a2829c0a1",
+    "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/2020-chevrolet-corvette-c8-reveal-108-1563547553.jpg?resize=640:*",
+    "favorite": false
+  }
+]
