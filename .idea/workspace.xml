@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="57fec7ab-543f-4080-bc05-91ba6c102769" name="Changes" comment="PaintingsCollectors-App">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paintingscollectors/util/UserSession.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Stoyan85Stoyanov&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Stoyan85Stoyanov/PaintingsCollectors-App.git&quot;,
+    &quot;accountId&quot;: &quot;00ca4d37-3548-4736-b0dc-7943ab90d3c2&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2fM2Vuzd83vyUm6hyGiA9xYZZ7c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.PaintingsCollectorsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ResellerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/Spring Fundamentals/EXAM PREPARATION/Painting&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Spring Fundamentals\EXAM PREPARATION\Painting\src\main\resources" />
+      <recent name="C:\Users\User\Desktop\Spring Fundamentals\EXAM PREPARATION\Painting\src\main\java\com\paintingscollectors\model\dto" />
+      <recent name="C:\Users\User\Desktop\Spring Fundamentals\EXAM PREPARATION\Painting\src\main\java\com\paintingscollectors\config" />
+      <recent name="C:\Users\User\Videos\PaintingsCollectors-App\src\main\java\com\paintingscollectors\model" />
+      <recent name="C:\Users\User\Videos\PaintingsCollectors-App\src\main\java\com\paintingscollectors\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.paintingscollectors.controller" />
+      <recent name="com.paintingscollectors.service" />
+      <recent name="com.paintingscollectors.service.impl" />
+      <recent name="com.paintingscollectors.repository" />
+      <recent name="com.paintingscollectors.init" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PaintingsCollectorsApplication">
+    <configuration name="PaintingsCollectorsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="PaintingsCollectors-App" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.paintingscollectors.PaintingsCollectorsApplication" />
+      <option name="VM_PARAMETERS" value="-Ddb_username=root -Ddb_password=wstxp@b" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.paintingscollectors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResellerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="PaintingsCollectors-App" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.resellerapp.ResellerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PaintingsCollectorsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57fec7ab-543f-4080-bc05-91ba6c102769" name="Changes" comment="" />
+      <created>1713596652319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713596652319</updated>
+      <workItem from="1713596653425" duration="82000" />
+      <workItem from="1713597034591" duration="157000" />
+      <workItem from="1716193270228" duration="10008000" />
+      <workItem from="1716368052467" duration="5388000" />
+      <workItem from="1716962370254" duration="4213000" />
+      <workItem from="1718104268991" duration="4445000" />
+      <workItem from="1718694869679" duration="66000" />
+      <workItem from="1757975166370" duration="1976000" />
+      <workItem from="1758032838330" duration="18742000" />
+      <workItem from="1758117865131" duration="5080000" />
+      <workItem from="1758125735099" duration="28407000" />
+      <workItem from="1758213452263" duration="19723000" />
+      <workItem from="1758394596988" duration="9000" />
+      <workItem from="1758547535112" duration="25489000" />
+      <workItem from="1758635601143" duration="18151000" />
+      <workItem from="1758663376347" duration="9000" />
+      <workItem from="1758724125620" duration="3157000" />
+      <workItem from="1758810320520" duration="1811000" />
+      <workItem from="1758912504512" duration="18031000" />
+      <workItem from="1759060237587" duration="16813000" />
+      <workItem from="1759155648494" duration="12504000" />
+      <workItem from="1759243484230" duration="7407000" />
+      <workItem from="1759329879388" duration="9227000" />
+      <workItem from="1759415052267" duration="508000" />
+      <workItem from="1759418626223" duration="9510000" />
+      <workItem from="1759501610126" duration="4089000" />
+      <workItem from="1759520835380" duration="4000" />
+      <workItem from="1759566946470" duration="8974000" />
+      <workItem from="1759761802019" duration="232000" />
+      <workItem from="1759777682271" duration="2480000" />
+      <workItem from="1760723109652" duration="361000" />
+      <workItem from="1760811393508" duration="93000" />
+      <workItem from="1760898879768" duration="134000" />
+      <workItem from="1760970694559" duration="155000" />
+      <workItem from="1761054858827" duration="729000" />
+      <workItem from="1761149644420" duration="914000" />
+      <workItem from="1761243958320" duration="306000" />
+      <workItem from="1761315053889" duration="437000" />
+      <workItem from="1761392645364" duration="176000" />
+      <workItem from="1761497900812" duration="64000" />
+      <workItem from="1761577410913" duration="647000" />
+      <workItem from="1761665996025" duration="410000" />
+      <workItem from="1761753113157" duration="2225000" />
+      <workItem from="1761851878675" duration="2650000" />
+      <workItem from="1761931731619" duration="637000" />
+      <workItem from="1761988660648" duration="156000" />
+    </task>
+    <task id="LOCAL-00035" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761149670983</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1761149670983</updated>
+    </task>
+    <task id="LOCAL-00036" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761243971817</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1761243971817</updated>
+    </task>
+    <task id="LOCAL-00037" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761243975971</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1761243975971</updated>
+    </task>
+    <task id="LOCAL-00038" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761243981872</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1761243981872</updated>
+    </task>
+    <task id="LOCAL-00039" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761243986791</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1761243986791</updated>
+    </task>
+    <task id="LOCAL-00040" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761243990298</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1761243990298</updated>
+    </task>
+    <task id="LOCAL-00041" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761315064147</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1761315064147</updated>
+    </task>
+    <task id="LOCAL-00042" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761315067786</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1761315067786</updated>
+    </task>
+    <task id="LOCAL-00043" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761315076304</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1761315076304</updated>
+    </task>
+    <task id="LOCAL-00044" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761315081715</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1761315081715</updated>
+    </task>
+    <task id="LOCAL-00045" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761315085761</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1761315085761</updated>
+    </task>
+    <task id="LOCAL-00046" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761392654662</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1761392654662</updated>
+    </task>
+    <task id="LOCAL-00047" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761392660616</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1761392660616</updated>
+    </task>
+    <task id="LOCAL-00048" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761392663723</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1761392663723</updated>
+    </task>
+    <task id="LOCAL-00049" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761392668706</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1761392668706</updated>
+    </task>
+    <task id="LOCAL-00050" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761392672417</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1761392672417</updated>
+    </task>
+    <task id="LOCAL-00051" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761497908369</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1761497908369</updated>
+    </task>
+    <task id="LOCAL-00052" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761497911407</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1761497911407</updated>
+    </task>
+    <task id="LOCAL-00053" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761497916715</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1761497916715</updated>
+    </task>
+    <task id="LOCAL-00054" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761497921984</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1761497921984</updated>
+    </task>
+    <task id="LOCAL-00055" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761497926993</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1761497926993</updated>
+    </task>
+    <task id="LOCAL-00056" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761497934316</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1761497934316</updated>
+    </task>
+    <task id="LOCAL-00057" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761577420634</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1761577420634</updated>
+    </task>
+    <task id="LOCAL-00058" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761577423914</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1761577423914</updated>
+    </task>
+    <task id="LOCAL-00059" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761577427903</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1761577427903</updated>
+    </task>
+    <task id="LOCAL-00060" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761577432026</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1761577432026</updated>
+    </task>
+    <task id="LOCAL-00061" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761577435665</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1761577435665</updated>
+    </task>
+    <task id="LOCAL-00062" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761577441180</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1761577441180</updated>
+    </task>
+    <task id="LOCAL-00063" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761666004218</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1761666004218</updated>
+    </task>
+    <task id="LOCAL-00064" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761666007740</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1761666007740</updated>
+    </task>
+    <task id="LOCAL-00065" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761666011215</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1761666011215</updated>
+    </task>
+    <task id="LOCAL-00066" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761666016246</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1761666016246</updated>
+    </task>
+    <task id="LOCAL-00067" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761666022334</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1761666022334</updated>
+    </task>
+    <task id="LOCAL-00068" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761753123097</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1761753123097</updated>
+    </task>
+    <task id="LOCAL-00069" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761753128916</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1761753128916</updated>
+    </task>
+    <task id="LOCAL-00070" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761753132135</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1761753132135</updated>
+    </task>
+    <task id="LOCAL-00071" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761753136551</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1761753136551</updated>
+    </task>
+    <task id="LOCAL-00072" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761753142185</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1761753142185</updated>
+    </task>
+    <task id="LOCAL-00073" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761848539481</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1761848539482</updated>
+    </task>
+    <task id="LOCAL-00074" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761848621050</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1761848621050</updated>
+    </task>
+    <task id="LOCAL-00075" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761848635004</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1761848635004</updated>
+    </task>
+    <task id="LOCAL-00076" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761931741616</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1761931741616</updated>
+    </task>
+    <task id="LOCAL-00077" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761931746821</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1761931746821</updated>
+    </task>
+    <task id="LOCAL-00078" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761931754087</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1761931754087</updated>
+    </task>
+    <task id="LOCAL-00079" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761931758973</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1761931758973</updated>
+    </task>
+    <task id="LOCAL-00080" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761988669396</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1761988669396</updated>
+    </task>
+    <task id="LOCAL-00081" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761988675195</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1761988675195</updated>
+    </task>
+    <task id="LOCAL-00082" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761988679835</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1761988679835</updated>
+    </task>
+    <task id="LOCAL-00083" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1761988684399</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1761988684399</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PaintingsCollectors-App" />
+    <option name="LAST_COMMIT_MESSAGE" value="PaintingsCollectors-App" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="painting.vote" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
