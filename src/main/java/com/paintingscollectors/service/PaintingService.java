@@ -204,7 +204,6 @@ public class PaintingService {
     public List<Painting> getTopTwoPaintings() {
 
         List<Painting> allPaintings = paintingRepository.findAll();
-
         allPaintings.sort(
                 Comparator.comparing(Painting::getVotes).reversed()
                         .thenComparing(Painting::getName)
