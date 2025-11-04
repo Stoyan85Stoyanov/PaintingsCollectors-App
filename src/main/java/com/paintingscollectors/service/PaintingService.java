@@ -121,22 +121,6 @@ public class PaintingService {
         return paintingRepository.findAll();
     }
 
-
-//    @Transactional
-//    public void createFavouriteByPaintingId(UUID paintingId) {
-//
-//        Painting painting = getById(paintingId);
-//
-//        User user = userRepository.findById(userSession.id()).orElse(null);
-//        user.getFavouritePaintings().add(painting);
-//
-//        painting.setFavorite(true);
-//        paintingRepository.save(painting);
-//        userRepository.save(user);
-//    }
-
-
-
     @Transactional
     public void createFavouriteByPaintingId(UUID paintingId) {
         Painting painting = getById(paintingId);
