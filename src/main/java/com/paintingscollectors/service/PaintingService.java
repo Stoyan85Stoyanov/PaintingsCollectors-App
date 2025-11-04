@@ -147,9 +147,7 @@ public class PaintingService {
     }
 
 
-
     private Painting getById(UUID paintingId) {
-
         return paintingRepository.findById(paintingId).orElseThrow(() -> new RuntimeException("Painting with id %s does not exist".formatted(paintingId)));
     }
 
@@ -160,8 +158,6 @@ public class PaintingService {
 
         // намирам харесваните картини на логнатият потребител
         Set<Painting> ratedPaintings = byUsername.get().getRatedPaintings();
-
-        //----------------------------------------------------------
 
         Painting painting = getById(paintingId);
 
