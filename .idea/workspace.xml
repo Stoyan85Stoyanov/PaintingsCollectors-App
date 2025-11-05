@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57fec7ab-543f-4080-bc05-91ba6c102769" name="Changes" comment="PaintingsCollectors-App" />
+    <list default="true" id="57fec7ab-543f-4080-bc05-91ba6c102769" name="Changes" comment="PaintingsCollectors-App">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,38 +185,7 @@
       <workItem from="1761988660648" duration="156000" />
       <workItem from="1762108899097" duration="171000" />
       <workItem from="1762187123024" duration="55000" />
-    </task>
-    <task id="LOCAL-00039" summary="PaintingsCollectors-App">
-      <option name="closed" value="true" />
-      <created>1761243986791</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1761243986791</updated>
-    </task>
-    <task id="LOCAL-00040" summary="PaintingsCollectors-App">
-      <option name="closed" value="true" />
-      <created>1761243990298</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1761243990298</updated>
-    </task>
-    <task id="LOCAL-00041" summary="PaintingsCollectors-App">
-      <option name="closed" value="true" />
-      <created>1761315064147</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1761315064147</updated>
-    </task>
-    <task id="LOCAL-00042" summary="PaintingsCollectors-App">
-      <option name="closed" value="true" />
-      <created>1761315067786</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1761315067786</updated>
+      <workItem from="1762268898560" duration="1689000" />
     </task>
     <task id="LOCAL-00043" summary="PaintingsCollectors-App">
       <option name="closed" value="true" />
@@ -576,7 +547,39 @@
       <option name="project" value="LOCAL" />
       <updated>1762187131762</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1762268921496</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1762268921497</updated>
+    </task>
+    <task id="LOCAL-00089" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1762269010152</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1762269010152</updated>
+    </task>
+    <task id="LOCAL-00090" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1762269094139</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1762269094139</updated>
+    </task>
+    <task id="LOCAL-00091" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1762269117166</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1762269117166</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
