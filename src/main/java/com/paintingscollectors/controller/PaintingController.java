@@ -102,7 +102,6 @@ public class PaintingController {
     }
 
 
-
     @PostMapping("/paintings/favorites/{id}")
     public ModelAndView addButtonFavouriteOtherPaintings (@PathVariable("id") UUID id) {
         if (!userSession.isLoggedIn()) {
