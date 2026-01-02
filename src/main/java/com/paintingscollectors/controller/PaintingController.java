@@ -54,8 +54,8 @@ public class PaintingController {
 
     @PostMapping("/add-painting")
     public String doAddPainting(@Valid @ModelAttribute("paintingData") AddPaintingDto addPaintingDto,
-                             BindingResult bindingResult,
-                             RedirectAttributes redirectAttributes
+                                BindingResult bindingResult,
+                                RedirectAttributes redirectAttributes
     ) {
 
         if (!userSession.isLoggedIn()) {
@@ -91,7 +91,7 @@ public class PaintingController {
     }
 
     @PostMapping("/paintings/addFavourite/{id}")
-    public ModelAndView addFavouriteOtherPaintings (@PathVariable("id") UUID id) {
+    public ModelAndView addFavouriteOtherPaintings(@PathVariable("id") UUID id) {
         if (!userSession.isLoggedIn()) {
             return new ModelAndView("redirect:/");
         }
@@ -103,7 +103,7 @@ public class PaintingController {
 
 
     @PostMapping("/paintings/favorites/{id}")
-    public ModelAndView addButtonFavouriteOtherPaintings (@PathVariable("id") UUID id) {
+    public ModelAndView addButtonFavouriteOtherPaintings(@PathVariable("id") UUID id) {
         if (!userSession.isLoggedIn()) {
             return new ModelAndView("redirect:/");
         }
