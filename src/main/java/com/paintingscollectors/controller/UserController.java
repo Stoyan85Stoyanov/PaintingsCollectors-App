@@ -108,7 +108,7 @@ public class UserController {
     @GetMapping("/logout")
     public String logout() {
 
-        if(!userSession.isLoggedIn()) {
+        if (!userSession.isLoggedIn()) {
             return "redirect:/";
         }
 
