@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57fec7ab-543f-4080-bc05-91ba6c102769" name="Changes" comment="PaintingsCollectors-App">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="57fec7ab-543f-4080-bc05-91ba6c102769" name="Changes" comment="PaintingsCollectors-App" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +55,7 @@
     "Spring Boot.ResellerApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/Desktop/Spring Fundamentals/EXAM PREPARATION/Philately",
+    "last_opened_file_path": "C:/Users/User/Desktop/Spring Fundamentals/EXAM PREPARATION/Painting",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -124,8 +122,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.26775.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.26775.15" />
       </set>
     </attachedChunks>
   </component>
@@ -191,30 +189,7 @@
       <workItem from="1764787354185" duration="735000" />
       <workItem from="1765026216179" duration="264000" />
       <workItem from="1765026580732" duration="74000" />
-    </task>
-    <task id="LOCAL-00045" summary="PaintingsCollectors-App">
-      <option name="closed" value="true" />
-      <created>1761315085761</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1761315085761</updated>
-    </task>
-    <task id="LOCAL-00046" summary="PaintingsCollectors-App">
-      <option name="closed" value="true" />
-      <created>1761392654662</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1761392654662</updated>
-    </task>
-    <task id="LOCAL-00047" summary="PaintingsCollectors-App">
-      <option name="closed" value="true" />
-      <created>1761392660616</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1761392660616</updated>
+      <workItem from="1767377102602" duration="793000" />
     </task>
     <task id="LOCAL-00048" summary="PaintingsCollectors-App">
       <option name="closed" value="true" />
@@ -584,7 +559,31 @@
       <option name="project" value="LOCAL" />
       <updated>1762361489363</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1767377206762</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1767377206762</updated>
+    </task>
+    <task id="LOCAL-00095" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1767377210980</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1767377210980</updated>
+    </task>
+    <task id="LOCAL-00096" summary="PaintingsCollectors-App">
+      <option name="closed" value="true" />
+      <created>1767377215338</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1767377215338</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
