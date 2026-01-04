@@ -45,12 +45,12 @@ public class UserService {
 
     public void initUsers() throws IOException {
         if (userRepository.count() == 0) {
-        Arrays.stream(gson.fromJson(readUsersFileContent(), UserDTO[].class))
-                .map(userDTO -> {
-                    User user = modelMapper.map(userDTO, User.class);
-                    user.setPassword(passwordEncoder.encode(userDTO.getPassword()));
-                    return user;
-                }).forEach(userRepository::save);
+            Arrays.stream(gson.fromJson(readUsersFileContent(), UserDTO[].class))
+                    .map(userDTO -> {
+                        User user = modelMapper.map(userDTO, User.class);
+                        user.setPassword(passwordEncoder.encode(userDTO.getPassword()));
+                        return user;
+                    }).forEach(userRepository::save);
         }
     }
 
