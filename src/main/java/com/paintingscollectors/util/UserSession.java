@@ -11,28 +11,28 @@ import java.util.UUID;
 @Getter
 public class UserSession {
 
-     private UUID id;
-     private String username;
+    private UUID id;
+    private String username;
 
-     public void login(UUID id, String username) {
+    public void login(UUID id, String username) {
         this.id = id;
         this.username = username;
-     }
-
-     public boolean isLoggedIn() {
-         return id != null;
-     }
-
-     public UUID id() {
-         return id;
     }
 
-     public String username() {
-         return username;
+    public boolean isLoggedIn() {
+        return id != null;
     }
 
-     public void logout() {
-         id = null;
-         username = null;
+    public UUID id() {
+        return id;
+    }
+
+    public String username() {
+        return username;
+    }
+
+    public void logout() {
+        id = null;
+        username = null;
     }
 }
