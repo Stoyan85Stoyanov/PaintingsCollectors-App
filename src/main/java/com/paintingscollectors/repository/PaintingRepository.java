@@ -12,6 +12,7 @@ import java.util.UUID;
 public interface PaintingRepository extends JpaRepository<Painting, UUID> {
 
     List<Painting> findAllByOwner(User owner);
+
     void deleteById(UUID id);
 
 }
