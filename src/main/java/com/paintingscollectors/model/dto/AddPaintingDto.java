@@ -21,7 +21,7 @@ public class AddPaintingDto {
     @NotBlank
     @Size(max = 150)
     private String imageUrl;
-    
+
     @NotBlank(message = "You must select a style!")
     private String style;
 }
